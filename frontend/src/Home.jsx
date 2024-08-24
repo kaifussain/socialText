@@ -1,8 +1,8 @@
 import { createContext,useEffect, useState } from 'react'
-import './App.css'
+import Header from './components/Header';
 export const ThemeContext = createContext();
 
-function App() {
+function Home() {
 
   const [theme,setTheme] = useState(localStorage.getItem('theme') || 'dark')
 
@@ -17,10 +17,10 @@ function App() {
 
   return (
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
-        <div>Text</div>
+        <Header/>
         <button onClick={toggleTheme}>Toggle theme</button>
     </ThemeContext.Provider>
   )
 }
 
-export default App
+export default Home

@@ -1,0 +1,41 @@
+.Login{
+    background-color: var(--primary-background-light0);
+    height: 100vh;
+    text-align: center;
+    display: grid;
+    align-content: center;
+}
+.Login-form{
+    display:flex;
+    flex-direction: column;
+    margin:auto;
+    margin-top: 4rem;
+    width: 14rem;
+    gap:2rem;
+}
+
+.Login-form > div > input {
+    width:100%;
+    padding:0.7rem 1rem;
+    background-color: var(--primary-background-light0);
+}
+.Login-form > div {
+    width:100%;
+    position:relative;
+}
+.Login-form > div > label {
+   text-align: right;
+   background-color: var(--primary-background-light0);
+   padding:0 4px;
+   position: absolute;
+   top:-10px;
+   left:8px;
+}
+
+
+.Login-btn{
+    margin-top:1rem;
+    background-color: var(--primary-background-light1);
+    color:white;
+    border:none;
+}

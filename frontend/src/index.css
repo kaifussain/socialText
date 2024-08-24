@@ -10,4 +10,36 @@
 :root{
     background-color: var(--background-color);
     color:var(--text-color);
+    /* 0 */
+    --primary-background-light0:rgb(223, 255, 253);
+    /* 1 */
+    --primary-background-light1:rgb(23, 139, 127);
+}
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
+}
+*{
+    box-sizing: border-box;
+}
+/* bigButton */
+.big-btn{
+    padding: 1rem 1.8rem;
+    transition: transform .1s;
+}
+.big-btn:hover{
+    cursor: pointer;
+    transform: scale(0.98);
+}
+.big-btn:active{
+    cursor: pointer;
+    transform: scale(0.9);
+}
+
+/* ST logo */
+.ST{
+    margin: auto;
+    height: 7rem;
+    width: 7rem;
 }

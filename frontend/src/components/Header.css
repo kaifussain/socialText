@@ -1,0 +1,11 @@
+.Header{
+    background-color: rgba(206, 124, 17, 0.301);
+    padding:.8rem;
+    display:flex;
+    align-items: center;
+    gap:.8rem;
+}
+.ST{
+    height:3rem;
+    width:3rem;
+}

@@ -1,0 +1,31 @@
+.Landing {
+  background-color: var(--primary-background-light);
+  text-align: center;
+  height: 100vh;
+  display: grid;
+  align-content: center;
+}
+.Landing-ST-span {
+  font-family: monospace;
+  font-size: 4rem;
+  background: radial-gradient(circle, rgb(205, 71, 19), rgb(25, 159, 146));
+  text-shadow: -2px 5px 4px rgba(23, 119, 100, 0.349), 4px 6px 4px rgba(182, 11, 11, 0.143);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.Landing-login-btn{
+  background-color: rgb(255, 255, 255);
+  margin-top: 3rem;
+}
+.Landing-signup-btn{
+  margin-top: 3rem;
+  margin-left: 1rem;
+  background-color: rgb(100, 219, 223);
+}
+/* .Landing-ST-img {
+  margin: auto;
+  height: 7rem;
+  width: 7rem;
+} */
