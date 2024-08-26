@@ -1,9 +1,9 @@
-.Login{
+.Signup{
     height: 100vh;
     text-align: center;
     align-content: center;
 }
-.Login-form{
+.Signup-form{
     display:flex;
     flex-direction: column;
     margin:auto;
@@ -12,11 +12,11 @@
     gap:2rem;
 }
 
-.Login-form > input {
+.Signup-form > input {
     padding:0.7rem 1rem;
 }
 
-.Login-btn{
+.Signup-btn{
     margin-top:1rem;
     margin-bottom:1rem;
     background-color: var(--primary-1);

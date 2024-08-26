@@ -10,10 +10,7 @@
 :root{
     background-color: var(--background-color);
     color:var(--text-color);
-    /* 0 */
-    --primary-background-light0:rgb(223, 255, 253);
-    /* 1 */
-    --primary-background-light1:rgb(23, 139, 127);
+    --primary-1:rgb(23, 139, 127);
 }
 body{
     margin:0;
@@ -23,7 +20,7 @@ body{
 *{
     box-sizing: border-box;
 }
-/* bigButton */
+
 .big-btn{
     padding: 1rem 1.8rem;
     transition: transform .1s;

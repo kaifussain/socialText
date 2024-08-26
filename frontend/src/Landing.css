@@ -1,9 +1,8 @@
 .Landing {
-  background-color: var(--primary-background-light);
   text-align: center;
   height: 100vh;
-  display: grid;
   align-content: center;
+  padding:0 12vw;
 }
 .Landing-ST-span {
   font-family: monospace;
@@ -16,16 +15,12 @@
   text-fill-color: transparent;
 }
 .Landing-login-btn{
-  background-color: rgb(255, 255, 255);
   margin-top: 3rem;
 }
 .Landing-signup-btn{
   margin-top: 3rem;
   margin-left: 1rem;
-  background-color: rgb(100, 219, 223);
+  margin-bottom: 1.5rem;
+  background-color: var(--primary-1);
+  color:white;
 }
-/* .Landing-ST-img {
-  margin: auto;
-  height: 7rem;
-  width: 7rem;
-} */
