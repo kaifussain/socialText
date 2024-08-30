@@ -1,9 +1,10 @@
 .Header{
     background-color: rgba(206, 124, 17, 0.301);
-    padding:.8rem;
+    padding:.5rem 1rem;
     display:flex;
     align-items: center;
     gap:.8rem;
+    justify-content: space-between;
 }
 .ST{
     height:3rem;

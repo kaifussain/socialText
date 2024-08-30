@@ -36,7 +36,47 @@ body{
 
 /* ST logo */
 .ST{
-    margin: auto;
     height: 7rem;
     width: 7rem;
+}
+.ST-small{
+    height:2rem;
+    width: 2rem;
+}
+.c-p{
+    cursor: pointer;
+}
+
+/* width */
+.w-fc{
+    width:fit-content;
+}
+
+/* margin */
+.m-auto-x{
+    margin-left:auto;
+    margin-right:auto;
+}
+.m-l-1{
+    margin-left: 1rem;
+}
+.m-t-1{
+    margin-top: 1rem;
+}
+
+.input{
+    padding:0.7rem 1rem;
+    width:100%;
+}
+/* wrong input */
+.red-input{
+    border-color:red;
+}
+.red-input:focus{
+    outline: none;
+}
+
+/* hide */
+.hide{
+    display:none;
 }
